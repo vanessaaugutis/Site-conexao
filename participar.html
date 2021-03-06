@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<html>
+
+<head>
+  <title>Conexão de vidas - O site das ideias </title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="CSS/estilos.css">
+
+</head>
+
+<body>
+  <div id="topo">
+    <h1>Conexão de vidas</h1>
+    <h3>Onde as ideias se tornam realidade.</h3>
+  </div>
+  <div id="menu"><!--Início Menu-->
+    <a href="index.html">Início</a>
+    <a href="noticias.html">Notícias</a>
+    <a href="destaques.html">Destaques</a>
+    <a class="selecionado" href="participar.html">Participar</a>
+    <a href="contatos.html">Contatos</a>
+  </div><!--Fim Menu-->
+  <div id=conteudos><!--Inicio Conteúdos-->
+    <div class="assunto-conteudo">
+      <h3>Requisitos para participar</h3>
+      <ul class="requisitos">
+        <li>
+          Ter no mínimo 18 anos completos
+        </li>
+        <li>
+          Gostar da natureza e se preocupar com o meio ambiente.
+        </li>
+        <li>
+          Ser uma pessoa responsável, didática e honesta.
+        </li>
+      </ul>
+    </div>
+    <div class="formulario"><!--Início Cadastro-->
+      <form>
+
+        <h2>Fazer cadastro</h2>
+
+        <fieldset>
+          <!--Dados Pessoais-->
+          <legend>
+            <h4>Dados Pessoais</h4>
+          </legend>
+
+          <div class="field-group">
+            <div class="field">
+              <label for="name">Nome Completo</label>
+              <input type="text" name="nome" required>
+            </div>
+            <div class="field">
+              <label for="cpf"> CPF </label>
+              <input type="text" name="cpf" required>
+            </div>
+          </div>
+          <div class="field-group">
+            <div class="field">
+              <label for="estado"> Estado </label>
+              <input type="text" name="estado" required>
+            </div>
+            <div class="field">
+              <label for="cidade"> Cidade </label>
+              <input type="text" name="cidade" required>
+            </div>
+          </div>
+
+        </fieldset>
+          <!--Área para participar-->
+        <fieldset>
+          <legend>
+            <h4>Área para participar</h4>
+          </legend>
+          <div class="field">
+            <label for="area-escolhida"> Escolha a área que você deseja entrar:</label>
+            <select name="area" required>
+              <option value="escolher">Escolha a área</option>
+              <option value="florestas">Florestas</option>
+              <option value="agrario">Meio Agrário</option>
+              <option value="animais-silvestres">Animais silvestres</option>
+              <option value="animais-domesticos">Animais domésticos</option>
+              <option value="animais-marinhos">Animais marinhos</option>
+              <option value="mudancas-climaticas">Mudanças Climáticas</option>
+              <option value="agua">Poluição da água</option>
+              <option value="ar">Poluição do ar</option>
+              <option value="urbana">Melhoria das cidades</option>
+              <option value="lixo">Lixo e reciclagem</option>
+              <option value="microorganismos">Microorganismos</option>
+              <option value="Nenhuma das alternativas">Nenhuma das alternativas</option>
+            </select>
+          </div>
+        </fieldset>
+        <!--Dados para contato-->
+        <fieldset>
+          <legend>
+            <h4>Dados para contato</h4>
+          </legend>
+          <div class="field-group">
+            <div class="field">
+              <label for="email"> E-mail </label>
+              <input type="text" name="email" required>
+            </div>
+            <div class="field">
+              <label for="celular"> Celular </label>
+              <input type="text" name="celular" required>
+            </div>
+          </div>
+        </fieldset>
+        <button>Cadastrar</button>
+      </form><!--Fim Cadastro-->
+      
+    </div><!--Fim Conteúdos-->
+    <div class="clear"></div>
+  </div>
+  <div id="rodape">
+    <h4>Dúvidas<br>
+      0800 555 444 022 022 02
+    </h4>
+    <p>Todos os direitos reservados</p>
+  </div>
+</body>
+
+</html>
